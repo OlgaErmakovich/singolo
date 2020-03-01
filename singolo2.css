@@ -1,0 +1,305 @@
+body {
+    margin: 0px;
+    margin-top: 0px;
+}
+.header {
+    height: 864px;
+    width: 1020px;
+    background-color: #2d303a;
+    color: #666d89;
+    margin: 0px;
+}
+h1 {
+    font-size: 30px;
+    padding-top: 60px;
+    padding-left: 40px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    font-family: LatoBold;
+    font-weight: 900;
+    margin: 0px;
+}
+.first-paraghaph {
+    font-family: LatoThin;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 40px;
+    letter-spacing: 0.18px;
+}
+.navigation {
+    list-style-type: none;
+    line-height: 22px;
+    color: #dedede;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    padding-left: 41px;
+    
+}
+.first-button {
+    border:0.6px solid #666d89;
+    border-radius: 5px; 
+    background-color: #2d303a;
+    color: #666d89;
+    margin-top: -7px;
+    font-size: 11px;
+    font-family: LatoBold;
+    letter-spacing: 0.6px;
+    text-align: center;
+    padding-left: 7px;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-right: 5px;
+}
+.first-button:hover {
+    color: white;
+    border-color: white;
+}
+.second-button {
+    border:0.6px solid #666d89;
+    border-radius: 5px; 
+    background-color: #2d303a;
+    color: #666d89;
+    margin-top: -7px;
+    font-size: 11px;
+    font-family: LatoBold;
+    margin-left: 10px;
+    padding-top: 1px;
+    padding-left: 7px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19px;
+    padding-right: 7px;
+}
+.second-button:hover {
+    color: white;
+    border-color: white;
+}
+.third-button {
+    border:0.6px solid #666d89;
+    border-radius: 5px; 
+    background-color: #2d303a;
+    color: #666d89;
+    margin-top: -7px;
+    font-size: 11px;
+    font-family: LatoBold;
+    margin-left: 10px;
+    padding-top: 1px;
+    padding-left: 6px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    line-height: 19px;
+    padding-right: 6px;
+}
+.third-button:hover {
+    color: white;
+    border-color: white;
+}
+.fourth-button {
+    border:0.6px solid #666d89;
+    border-radius: 5px; 
+    background-color: #2d303a;
+    color: #666d89;
+    margin-top: -7px;
+    font-size: 11px;
+    font-family: LatoBold;
+    margin-left: 11px;
+    padding-top: 1px;
+    padding-left: 5px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    line-height: 19px;
+    padding-right: 6px;
+}
+.fourth-button:hover {
+    color: white;
+    border-color: white;
+}
+div.third-row div:nth-child(n+5) {
+    visibility: hidden;
+}
+div.first-row div:nth-child(n+5) {
+    visibility: hidden;
+}
+div.second-row div:nth-child(n+5) {
+    visibility: hidden;
+}
+.first-row {
+    margin-top: 20px;
+    display: flex;
+}
+.first-image {
+    margin-left: 39px;
+}
+.row-image {
+    margin-left: 20px;
+}
+
+.second-row {
+    margin-top: 16px;
+    display: flex;
+    margin-left: 1px;
+}
+.third-row {
+    margin-top: 16px;
+    display: flex;
+    margin-left: 1px;
+}
+.slim-line {
+    background-color: #323746;
+    height: 6px;
+    width: 1020px;
+}
+.contacts {
+    background-color:#f2f2f2;
+    width: 1020px;
+    height: 728px;
+    
+}
+.second-slim-line {
+    background-color:#ffffff;
+    height: 6px;
+    width: 1020px;
+}
+.info {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: LatoBold;
+    font-weight: bolder;
+    text-align: left;
+    padding-top: 68px;
+    padding-left: 40px;
+    letter-spacing: 0.1px;
+}
+.more-info {
+    width: 940px;
+    height: 57px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: LatoThin;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 11px;
+    padding-left: 40px;
+    letter-spacing: 0.756px;
+}
+.photo {
+    padding-top: 30px;
+    display: flex;
+}
+.adam {
+    padding-left: 40px;
+}
+.desmond {
+    padding-left: 19px;
+}
+.scolara {
+    padding-left: 21px;
+}
+.contact-info {
+    padding-top: 13px;
+    display: flex;
+}
+.Adam-info {
+    font-family: LatoBold;
+    font-size: 18.6px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-left: 39px;
+    color: #666d89;
+    letter-spacing: -0.3px;
+}
+.Adam-name-text {
+    font-size: 11.6px;
+    line-height: 21.6px;
+    width: 300px;
+    color: #767e9e;
+    font-family: LatoRegular;
+    font-weight: 590;
+    padding-top: 10.5px;
+    letter-spacing: 0.12383px;
+}
+.Desmond-info {
+    font-family: LatoBold;
+    font-size: 18.6px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-left: 20px;
+    color: #666d89;
+    letter-spacing: -0.36px;
+}
+.Desmond-name-text {
+    font-size: 11.6px;
+    line-height: 21.6px;
+    width: 300px;
+    color: #767e9e;
+    font-family: LatoRegular;
+    font-weight: 590;
+    padding-top: 10.5px;
+    letter-spacing: 0.28775px;
+}
+.Scolara-info {
+    font-family: LatoBold;
+    font-size: 18.6px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-left: 20px;
+    color: #666d89;
+    letter-spacing: -0.2px;
+}
+.Scolara-name-text {
+    font-size: 11.6px;
+    line-height: 21.6px;
+    width: 300px;
+    color: #767e9e;
+    font-family: LatoRegular;
+    font-weight: 590;
+    padding-top: 10.5px;
+    letter-spacing: 0.2902px;
+}
+.links {
+    padding-top: 23px;
+    display: flex;
+}
+.Adam-link {
+    display: flex;
+    width: 300px;
+}
+.Adam-first-link{
+    padding-left: 41px;
+    cursor: pointer;
+}
+.next-link {
+    padding-left: 8px;
+    cursor: pointer;
+}
+.Desmond-link {
+    display: flex;
+}
+.Desmond-first-link{
+    padding-left: 60px;
+    cursor: pointer;
+}
+.Scolara-first-link{
+    padding-left: 168px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: LatoBold;
+    src: url(./assets/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: LatoThin;
+    src: url(./assets/Lato-Thin.ttf);
+}
+
+@font-face {
+    font-family: LatoRegular;
+    src: url(./assets/Lato-Regular.ttf);
+}
