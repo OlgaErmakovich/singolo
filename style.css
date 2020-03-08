@@ -130,7 +130,8 @@ h2 {
     width: 940px;
     height: 57px;
     font-size: 18px;
-    font-family: Lato;
+    font-family: LatoThin;
+    font-weight: bold;
     line-height: 31px;
     color: #767e9e;
     text-align: left;
